@@ -1,8 +1,12 @@
+// Copyright © 2024 Ory Corp
+// SPDX-License-Identifier: Apache-2.0
+
 package login
 
 import (
-	"github.com/ory/kratos/identity"
 	"net/http"
+
+	"github.com/ory/kratos/identity"
 )
 
 type LegacyFormHydrator interface {

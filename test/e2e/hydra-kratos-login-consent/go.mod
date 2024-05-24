@@ -7,6 +7,6 @@ replace golang.org/x/sys => golang.org/x/sys v0.0.0-20220319134239-a9b59b0215f8
 require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/ory/hydra-client-go v1.7.4
-	github.com/ory/kratos-client-go v0.10.1
+	github.com/ory/kratos/internal/httpclient v0.10.1
 	github.com/ory/x v0.0.577
 )

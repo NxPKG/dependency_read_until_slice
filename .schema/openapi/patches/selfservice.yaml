@@ -52,7 +52,7 @@
     - "$ref": "#/components/schemas/updateLoginFlowWithLookupSecretMethod"
     - "$ref": "#/components/schemas/updateLoginFlowWithCodeMethod"
     - "$ref": "#/components/schemas/updateLoginFlowWithPasskeyMethod"
-    - "$ref": "#/components/schemas/updateLoginFlowWithTwoStepMethod"
+    - "$ref": "#/components/schemas/updateLoginFlowWithIdentifierFirstMethod"
 - op: add
   path: /components/schemas/updateLoginFlowBody/discriminator
   value:

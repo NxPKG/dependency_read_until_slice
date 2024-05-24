@@ -7,9 +7,10 @@ import (
 	"context"
 	"database/sql"
 	"encoding/json"
-	"github.com/ory/kratos/text"
 	"net/http"
 	"strings"
+
+	"github.com/ory/kratos/text"
 
 	"github.com/ory/x/sqlcon"
 

@@ -15,7 +15,7 @@ import (
 
 	"github.com/ory/kratos/internal/testhelpers"
 
-	ory "github.com/ory/client-go"
+	ory "github.com/ory/kratos/internal/httpclient"
 )
 
 func PrintJSONPretty(v interface{}) {

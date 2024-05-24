@@ -6,10 +6,11 @@ package oidc
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/ory/kratos/selfservice/flowhelpers"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/ory/kratos/selfservice/flowhelpers"
 
 	"github.com/julienschmidt/httprouter"
 

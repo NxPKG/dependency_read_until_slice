@@ -6,12 +6,13 @@ package driver
 import (
 	"context"
 	"crypto/sha256"
-	"github.com/ory/kratos/selfservice/strategy/multistep"
 	"net/http"
 	"strings"
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/ory/kratos/selfservice/strategy/multistep"
 
 	"github.com/cenkalti/backoff"
 	"github.com/dgraph-io/ristretto"

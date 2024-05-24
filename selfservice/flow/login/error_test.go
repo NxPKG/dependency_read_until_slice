@@ -6,11 +6,12 @@ package login_test
 import (
 	"context"
 	"encoding/json"
-	"github.com/ory/kratos/identity"
 	"io"
 	"net/http"
 	"testing"
 	"time"
+
+	"github.com/ory/kratos/identity"
 
 	"github.com/gofrs/uuid"
 

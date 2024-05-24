@@ -1,6 +1,13 @@
+// Copyright © 2024 Ory Corp
+// SPDX-License-Identifier: Apache-2.0
+
 package multistep
 
 import (
+	"net/http"
+
+	"github.com/pkg/errors"
+
 	"github.com/ory/kratos/identity"
 	"github.com/ory/kratos/schema"
 	"github.com/ory/kratos/selfservice/flow"
@@ -11,8 +18,6 @@ import (
 	"github.com/ory/kratos/x"
 	"github.com/ory/x/decoderx"
 	"github.com/ory/x/sqlcon"
-	"github.com/pkg/errors"
-	"net/http"
 )
 
 var _ login.FormHydrator = new(Strategy)

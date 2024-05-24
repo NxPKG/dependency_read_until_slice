@@ -1372,8 +1372,8 @@ github.com/ory/hydra-client-go v1.7.4 h1:xazbWaXCsAjRazT8EWStU6qjkT0I0EC6WtXZOGt
 github.com/ory/hydra-client-go v1.7.4/go.mod h1:g1By+kj32wbTmbtBWnFV0NWDif3YBxPvse882PU912I=
 github.com/ory/jsonschema/v3 v3.0.7 h1:GQ9qfZDiJqs4l2d3p56dozCChvejQFZyLKGHYzDzOSo=
 github.com/ory/jsonschema/v3 v3.0.7/go.mod h1:g8c8YOtN4TrR2wYeMdT02GDmzJDI0fEW2nI26BECafY=
-github.com/ory/kratos-client-go v0.10.1 h1:kSRk+0leCJ1nPMS+FPho8b9WMzrKNpgszvta0Xo32QU=
-github.com/ory/kratos-client-go v0.10.1/go.mod h1:dOQIsar76K07wMPJD/6aMhrWyY+sFGEagLDLso1CpsA=
+github.com/ory/kratos/internal/httpclient v0.10.1 h1:kSRk+0leCJ1nPMS+FPho8b9WMzrKNpgszvta0Xo32QU=
+github.com/ory/kratos/internal/httpclient v0.10.1/go.mod h1:dOQIsar76K07wMPJD/6aMhrWyY+sFGEagLDLso1CpsA=
 github.com/ory/viper v1.7.5/go.mod h1:ypOuyJmEUb3oENywQZRgeAMwqgOyDqwboO1tj3DjTaM=
 github.com/ory/x v0.0.577 h1:wJRrD2OvEFkbM/cwHrlkSY8VaEO6RUoOnDlUc34YRdk=
 github.com/ory/x v0.0.577/go.mod h1:aeJFTlvDLGYSABzPS3z5SeLcYC52Ek7uGZiuYGcTMSU=

@@ -776,7 +776,7 @@ func (p *Config) SelfServiceStrategy(ctx context.Context, strategy string) *Self
 	// we need to forcibly set these values here:
 	defaultEnabled := false
 	switch strategy {
-	case "identity_discovery":
+	case "two_step":
 		defaultEnabled = p.SelfServiceLoginFlowTwoStepEnabled(ctx)
 		break
 	case "code", "password", "profile":

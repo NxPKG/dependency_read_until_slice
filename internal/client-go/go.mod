@@ -1,4 +1,4 @@
-module github.com/ory/client-go
+module github.com/ory/kratos/internal/httpclient
 
 go 1.13
 

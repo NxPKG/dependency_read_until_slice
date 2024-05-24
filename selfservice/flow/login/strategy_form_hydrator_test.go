@@ -1,9 +1,14 @@
+// Copyright © 2024 Ory Corp
+// SPDX-License-Identifier: Apache-2.0
+
 package login
 
 import (
-	"github.com/ory/kratos/identity"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/ory/kratos/identity"
 )
 
 func TestWithIdentityHint(t *testing.T) {

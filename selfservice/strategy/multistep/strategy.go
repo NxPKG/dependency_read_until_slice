@@ -1,8 +1,13 @@
+// Copyright © 2024 Ory Corp
+// SPDX-License-Identifier: Apache-2.0
+
 package multistep
 
 import (
 	"context"
+
 	"github.com/go-playground/validator/v10"
+
 	"github.com/ory/kratos/driver/config"
 	"github.com/ory/kratos/identity"
 	"github.com/ory/kratos/selfservice/flow/login"

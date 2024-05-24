@@ -10,7 +10,7 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	ory "github.com/ory/client-go"
+	ory "github.com/ory/kratos/internal/httpclient"
 )
 
 func RandomCredentials() (email, password string) {
